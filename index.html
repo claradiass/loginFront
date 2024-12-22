@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">    
+    <link rel="stylesheet" href="style.css" />
+    <title>IFPB</title>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="singnin-singnup">
+            <form action="" class="sing-in-form">
+                <h2 class="title">Entrar</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <!--
+                    a tag <i> com a classe fas fa-user está sendo usada para inserir um ícone de usuário. Isso é possível porque 
+                    a classe fas indica que você está utilizando a biblioteca Font Awesome (versão 5.x ou superior) e a classe 
+                    fa-user especifica o ícone de usuário.
+                    -->
+                    <input type="text" placeholder="Usuário">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <!--
+                    a tag <i> com a classe fas fa-user está sendo usada para inserir um ícone de usuário. Isso é possível porque 
+                    a classe fas indica que você está utilizando a biblioteca Font Awesome (versão 5.x ou superior) e a classe 
+                    fa-user especifica o ícone de usuário.
+                    -->
+                    <input type="password" placeholder="Senha">
+                </div>
+                
+                <input type="submit" value="login" class="btn">
+
+                <p class="social-text">Ou entre com uma rede social</p>
+
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+
+                <p class="account-text"> 
+                    Don't have a account?
+                    <a href="#" id="sign_up_btn2">Sign up</a>
+                </p>
+            </form>
+
+            <form action="" class="sing-up-form">
+                <h2 class="title">Cadastrar</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <!--
+                    a tag <i> com a classe fas fa-user está sendo usada para inserir um ícone de usuário. Isso é possível porque 
+                    a classe fas indica que você está utilizando a biblioteca Font Awesome (versão 5.x ou superior) e a classe 
+                    fa-user especifica o ícone de usuário.
+                    -->
+                    <input type="text" placeholder="Usuário">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-email"></i>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha">
+                </div>
+                <input type="submit" value="sing up" class="btn">
+
+                <p class="social-text">Ou entre com uma rede social</p>
+
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <p class="account-text"> 
+                    Already have a account?
+                    <a href="#" id="sign_in_btn2">Sign in</a>
+                </p>
+            </form>
+        </div>
+
+
+        <div class="painels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Member of brand?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni laudantium ipsum eum accusantium ipsa et!</p>
+                    <button class="btn" id="sign-in-btn" >Sign in</button>
+                </div>
+                <img src="sozinha.svg" alt="" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>New to brand?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni laudantium ipsum eum accusantium ipsa et!</p>
+                    <button class="btn" id="sign-up-btn">Sign up</button>
+                </div>
+                <img src="boy.svg" alt="" class="image">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
